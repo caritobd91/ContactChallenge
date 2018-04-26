@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    padding: 30px;
+}
+
+.circle {
+    width: 20px;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: brown; 
+}
