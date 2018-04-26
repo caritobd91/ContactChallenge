@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    height: 100%;
+}
 .container {
     display: flex;
     padding: 30px;
@@ -12,4 +16,21 @@
     height: 150px;
     border-radius: 50%;
     background-color: brown; 
+}
+
+.icons {
+    position: absolute;
+    left: 185px;
+    display: flex;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+i {
+    padding-left: 52px;
+    padding-bottom: 20px;
+}
+
+#text {
+    padding-top: 151px;
 }
