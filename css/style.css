@@ -1,10 +1,15 @@
 body{
     margin: 0;
     height: 100%;
+    font-family: 'Arimo', sans-serif;
 }
 .container {
     display: flex;
     padding: 30px;
+}
+
+.top {
+    background-color: rgb(26, 156, 150, 0.4);
 }
 
 .circle {
@@ -15,7 +20,10 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: brown; 
+    border-style: solid;
+    border-color: white;
+    background-color: brown;
+    box-shadow: 3px 3px 15px -1px rgba(0,0,0,0.4);
 }
 
 .icons {
@@ -33,4 +41,12 @@ i {
 
 #text {
     padding-top: 151px;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+}
+
+.bottom {
+    padding-top: 0;
 }
