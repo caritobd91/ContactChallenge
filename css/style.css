@@ -111,6 +111,26 @@ body{
     color: whitesmoke;
 }
 
+#success-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    padding: 45px 10px;
+    text-align: center;
+    background-color: white;
+    border: solid 2px black;
+    margin: 0 auto;
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
 @media only screen and (min-width:800px){
     .container.top {
         display: inherit;
