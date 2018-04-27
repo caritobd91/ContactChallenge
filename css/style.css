@@ -27,6 +27,7 @@ body{
 }
 
 .icons {
+    cursor: pointer;
     position: absolute;
     left: 185px;
     display: flex;
@@ -34,19 +35,68 @@ body{
     flex-wrap: wrap;
 }
 
-i {
+.icon:hover{
+    color: whitesmoke;
+}
+
+.icon {
     padding-left: 52px;
     padding-bottom: 20px;
 }
 
 #text {
     padding-top: 151px;
+    color: slategrey;
+}
+
+.contact-form {
+    width: 100%;
 }
 
 .contact-form input, .contact-form textarea {
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+
+.contact-form button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: rgb(26, 156, 150, 0.4);
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+.contact-form h2{
+    color: slategray;
 }
 
 .bottom {
     padding-top: 0;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    background-color: teal;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+}
+
+.social-icons {
+    font-size: 20px;
+    align-self: center;
 }
