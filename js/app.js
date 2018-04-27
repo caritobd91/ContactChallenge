@@ -58,3 +58,12 @@ function showAddress(){
 function showPassword(){
     document.getElementById("text").innerHTML = key;
 }
+
+function closeModal() {
+    document.getElementById("success-modal").style.display = "none";
+}
+
+document.getElementById("contact-form").addEventListener("submit", function(event){
+    event.preventDefault();
+    document.getElementById("success-modal").style.display = "inherit";
+});

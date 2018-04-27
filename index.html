@@ -27,13 +27,12 @@
             </div>
         </div>
         <div class="container bottom">
-            <form class="contact-form">
+            <form class="contact-form" id="contact-form">
                 <h2>Contact Me</h2>
                     <input type="text" placeholder="Name" required autofocus><br>
                     <input type="email" placeholder="Email" required><br>
                     <textarea placeholder="How can I help?" required></textarea>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
-            
             </form>
 
         </div>
@@ -46,7 +45,7 @@
         </footer>
         
         <div id="success-modal">
-            <i class="close far fa-times-circle"></i>
+            <i class="close far fa-times-circle" onclick="closeModal()"></i>
             <h2>Success!</h2>
             <p>Thank you for your submission. I will get back to you as soon as possible!</p>
         </div>
