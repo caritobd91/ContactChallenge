@@ -6,14 +6,11 @@ body{
 .container {
     display: flex;
     padding: 30px;
+    padding-bottom: 10px;
 }
 
 .top {
     background-color: rgb(26, 156, 150, 0.4);
-}
-
-.circle {
-    width: 20px;
 }
 
 #profile-pic {
@@ -45,7 +42,7 @@ body{
 }
 
 #text {
-    padding-top: 151px;
+    padding-top: 160px;
     color: slategrey;
 }
 
@@ -99,4 +96,28 @@ body{
 .social-icons {
     font-size: 20px;
     align-self: center;
+    cursor: pointer;
+}
+
+.social-icons:hover {
+    color: whitesmoke;
+}
+
+@media only screen and (min-width:800px){
+    .container.top {
+        display: inherit;
+    }
+    #profile-pic {
+        position: relative;
+        margin: 0 auto;
+    }
+    .icons {
+        padding-top: 20px;
+        position: inherit;
+        justify-content: space-between;
+    }
+    #text {
+        text-align: center;
+        padding-top: 0;
+    }
 }

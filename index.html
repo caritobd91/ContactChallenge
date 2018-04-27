@@ -15,14 +15,16 @@
                 <div id="profile-pic"></div>
             </div> 
             <div class="icons">
-                <div class="icon info"><i class="fas fa-address-book"></i></div>
-                <div class="icon email"><i class="fas fa-envelope"></i></div>
-                <div class="icon birthday"><i class="fas fa-birthday-cake"></i></div>
-                <div class="icon location"><i class="fas fa-map"></i></div>
-                <div class="icon phone"><i class="fas fa-phone"></i></div>
-                <div class="icon key"><i class="fas fa-key"></i></div>
+                <div onclick="showInfo()" class="icon info"><i class="fas fa-address-book"></i></div>
+                <div onclick="showEmail()" class="icon email"><i class="fas fa-envelope"></i></div>
+                <div onclick="showBirthday()" class="icon birthday"><i class="fas fa-birthday-cake"></i></div>
+                <div onclick="showAddress()" class="icon location"><i class="fas fa-map"></i></div>
+                <div onclick="showPhone()" class="icon phone"><i class="fas fa-phone"></i></div>
+                <div onclick="showPassword()" class="icon key"><i class="fas fa-key"></i></div>
             </div>
-            <p id="text">place holder text</p>
+            <div id="profile-text">
+                <p id="text"></p>
+            </div>
         </div>
         <div class="container bottom">
             <form class="contact-form">
@@ -43,7 +45,7 @@
             </div>
         </footer>
         
-
+        <script src="js/app.js"></script>
     </body>
 
 
